@@ -73,23 +73,21 @@ h2 {
   letter-spacing: 0rem;
 }
 
-main {
-  display: inline-block;
-}
-
 body {
   display: flex;
   justify-content: center;
 }
 
-.intro {
-  min-width: 19.625rem;
+main {
   max-width: 21.875rem;
+  width: 90%;
   border: 2px solid #44d3d2;
+}
+/* How do I want it to behave? I want main to stay at the center, and grow up to a maximum of 350px
+   All the while staying at 90% of its container, until it reaches that 350px
+*/
+.intro {
 }
 
 .card {
-  min-width: 19.625rem;
-  max-width: 21.875rem;
-  border: 2px solid #44d3d2;
 }
