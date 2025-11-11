@@ -79,15 +79,35 @@ body {
 }
 
 main {
+  margin-top: 3.125rem; /* temp */
   max-width: 21.875rem;
   width: 90%;
   border: 2px solid #44d3d2;
 }
-/* How do I want it to behave? I want main to stay at the center, and grow up to a maximum of 350px
-   All the while staying at 90% of its container, until it reaches that 350px
-*/
+
 .intro {
 }
 
 .card {
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-family: var(--poppins);
+  font-size: 1.25rem;
+  font-style: regular;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0rem;
+  color: var(--grey-500);
+}
+
+.card-paragraph {
+  font-family: var(--poppins);
+  font-size: 0.8125rem;
+  font-style: regular;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0rem;
+  color: var(--grey-400);
 }
