@@ -82,7 +82,13 @@ main {
   margin-top: 3.125rem; /* temp */
   max-width: 21.875rem;
   width: 90%;
+}
+
+.grid-container {
   display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3.125rem;
 }
 
 .intro {
@@ -135,11 +141,9 @@ main {
 }
 
 .card {
-  /* not a flex item , do we need this or can we keep at display: block?*/
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  margin-bottom: 2rem;
   border-radius: 0.5rem;
   height: 250px;
   box-shadow: 0rem 0.9375rem 1.875rem -0.6875rem rgba(131, 166, 210, 0.5);
