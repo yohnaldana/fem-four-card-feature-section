@@ -91,11 +91,11 @@ The below is html code, with this project I tried to make the html as meaningful
 }
 ```
 
-Above is some CSS that quite easily adapts to desktop sized widths. After having built the website as mobile-first the later media queries became easy write and overwrite the mobile styles written earlier in the source code.
+Above is some CSS that quite easily adapts to desktop sized widths. After having built the website as mobile-first the later media queries became easy to write and overwrite the mobile styles written earlier in the source code.
 
 ### Continued development
 
-CSS is a great tool, there are areas however that I still need to improve on, among those are grid areas and creating grids that are uneven, meaning the grid cells can vary in width and or height. This was the key problem in this project and though I was able to solve it using start-end spans (grid-column-start/end) I would like to understand this pattern more in depth. So I will be looking at this type of problem carefully to solve it more cleanly.
+CSS Grid is a great tool, there are areas however that I still need to improve on, among those are grid areas and creating grids that are uneven, meaning the grid cells can vary in width and or height compared to adjacent cells. This was the key problem in this project and though I was able to solve it using start-end spans (grid-column-start/end) I would like to understand this pattern more in depth. So I will be looking at this type of problem carefully to solve it more cleanly in the future.
 
 ## Author
 
