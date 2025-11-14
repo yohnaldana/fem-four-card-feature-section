@@ -85,7 +85,6 @@ main {
 }
 
 .grid-container {
-  margin-bottom: 3.125rem;
   display: grid;
   grid-template-columns: minmax(auto, 21.875rem); /* set max width of column here */
   gap: 2rem;
