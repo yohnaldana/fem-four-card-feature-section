@@ -28,52 +28,6 @@ h2 {
   --poppins: Poppins, sans-serif;
 }
 
-/* After Finish applying all styles, these text presets won't be needed */
-.text-preset-1 {
-  font-family: var(--poppins);
-  font-size: 2.25rem;
-  font-style: regular;
-  font-weight: 600;
-  line-height: 1.4;
-  letter-spacing: 0.0156rem;
-}
-
-.text-preset-2 {
-  font-family: var(--poppins);
-  font-size: 2.25rem;
-  font-style: regular;
-  font-weight: 200;
-  line-height: 1.4;
-  letter-spacing: 0.0156rem;
-}
-
-.text-preset-3 {
-  font-family: var(--poppins);
-  font-size: 1.25rem;
-  font-style: regular;
-  font-weight: 600;
-  line-height: 1.35;
-  letter-spacing: 0rem;
-}
-
-.text-preset-4 {
-  font-family: var(--poppins);
-  font-size: 0.9375rem;
-  font-style: regular;
-  font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: 0rem;
-}
-
-.text-preset-5 {
-  font-family: var(--poppins);
-  font-size: 0.8125rem;
-  font-style: regular;
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: 0rem;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -183,6 +137,11 @@ main {
 
 /* Tablet: 768px */
 @media (min-width: 48rem) {
+
+  .intro-title,
+  .intro-strong {
+    font-size: 2rem;
+  }
 
   .card {
     max-width: 350px;
