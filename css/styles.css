@@ -183,10 +183,6 @@ main {
 
 /* Desktop: 1440px */
 @media (min-width: 90rem) {
-  main{
-    margin-top: 6.25rem;
-  }
-
   .intro {
     margin-bottom: 4.375rem;
   }
