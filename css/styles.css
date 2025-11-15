@@ -137,6 +137,9 @@ main {
 
 /* Tablet: 768px */
 @media (min-width: 48rem) {
+  main {
+    margin-top: 4.375rem;
+  }
 
   .intro-title,
   .intro-strong {
@@ -180,6 +183,14 @@ main {
 
 /* Desktop: 1440px */
 @media (min-width: 90rem) {
+  main{
+    margin-top: 6.25rem;
+  }
+
+  .intro {
+    margin-bottom: 4.375rem;
+  }
+
   .grid-container {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(4, auto);
